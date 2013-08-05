@@ -1,0 +1,14 @@
+sp {propose*initialize-base-test
+   (state <s> ^superstate nil
+             -^name)
+-->
+   (<s> ^operator <o> +)
+   (<o> ^name initialize-base-test)
+}
+
+sp {apply*initialize-base-test
+   (state <s> ^operator.name initialize-base-test)
+-->
+   (<s> ^name base-test)
+}
+

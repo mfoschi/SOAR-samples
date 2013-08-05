@@ -1,0 +1,3 @@
+pushd base-test
+source base-test_source.soar
+popd

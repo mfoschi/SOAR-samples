@@ -1,0 +1,6 @@
+sp {propose*hello
+   (state <s> ^name base-test)
+-->
+   (write |Hello|)
+   (halt)
+}
